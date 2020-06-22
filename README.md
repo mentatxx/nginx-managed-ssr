@@ -9,7 +9,7 @@ Configure your website in runtime with environment variables. Also supports Reac
 Just include this snippet in your `index.html`
 
 ```
-<!--# include file="environment.js" -->
+<!--# include file="_environment.html" -->
 ```
 
 Now you can access your environemnt variables via `window.environment.<VARIABLE_NAME>`
@@ -17,7 +17,7 @@ Now you can access your environemnt variables via `window.environment.<VARIABLE_
 2. Directly output variable values to `.html` files
 
 ```
-<!--# echo <VARBLE_NAME> -->
+<!--# echo <VARIABLE_NAME> -->
 ```
 
 ## How to write Dockerfile
